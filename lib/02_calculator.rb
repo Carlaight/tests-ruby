@@ -19,5 +19,6 @@ def power(num1, num2)
 end
 
 def factorial(num)
+    if num == 0 then return 0
     1.upto(num).inject(1, :*)
 end
